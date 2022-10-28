@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hinge: A love story</title>
+  <link rel="stylesheet" type="text/css" href="hypertext-final.css" media="screen" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+  
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #20202c;
+  padding-bottom: 5px;
+  padding-top: 1px;
+  height: 1%;
+  text-align: center;
+  font-size: 33px;
+  font-family:'Bungee Spice', cursive;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 50%;
+  height: 600px; /* only for demonstration, should be removed */
+  background: #20202c;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 30px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding-left: 20px;
+  padding-top: 80px;
+  padding-right: 40px;
+  width: 50%;
+  background-color: #20202c;
+  height: 600px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: black;
+  padding: 1px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>The hinges of love</h2>
+</header>
+
+<section>
+  <nav>
+   <p style= "font-family:'Roboto Mono', monospace; color:#744e88; text-align: justify; padding-left: 40px; padding-left: -10px;">Everything seemed magical until Justin took the drinking and partying to the next level, causing fractures in their relationship. 
+    He remembers breaking up at least 7 times during their time together. On the months leading up to their 
+    last summer, Justin told Kate he was heading into rehab and that it would be best if they took some time away.
+    </p> <br>
+    <center><img src="data:image/jpeg;base64,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" width=550px" height="300";"></center>
+  </nav>
+  
+  <article >
+  <p style= "font-family:'Roboto Mono', monospace; color:#744e88; text-align: left; padding-left: 50px; padding-left: -10px;"> What did Kate do next?</p>
+  <br>
+    <ul>
+        <li><a style= color:#8b158f href="Wrong.html"> Kate stayed by Justin's side and together they built one of the biggest rehab franchises in the US</a></li><br>
+        <br>
+        <li><a style= color:#8b158f href="hinge3.html">Kate transferred into an all-girls school and then moved to London</a></li><br>
+        <br>
+        <li><a style= color:#8b158f href="Wrong.html">Justin sobered up and went on to become one of the most famous singers of all time</a></li><br>
+    </ul>
+  
+
+  </ul>
+</article>
+</section>
+
+<footer>
+  <p></p>
+</footer>
+
+</body>
+</html>

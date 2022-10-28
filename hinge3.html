@@ -1,0 +1,117 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hinge: A love story</title>
+  <link rel="stylesheet" type="text/css" href="hypertext-final.css" media="screen" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+  
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #20202c;
+  padding: 1px;
+  height: 25%;
+  text-align: center;
+  font-size: 33px;
+  font-family:'Bungee Spice', cursive;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 50%;
+  height: 600px; /* only for demonstration, should be removed */
+  background: #20202c;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 30px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 10;
+}
+
+article {
+  float: left;
+  padding-left: 20px;
+  padding-top: 80px;
+  padding-right: 40px;
+  width: 50%;
+  background-color: #20202c;
+  height: 600px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: black;
+  padding: 1px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>The hinges of love</h1>
+</header>
+
+<section>
+  <nav>
+   <p style= "font-family:'Roboto Mono', monospace; color:#744e88; text-align: justify; padding-left: 40px; padding-left: -10px;">
+    Justin McLeod sobered up the day he finished school. He decided to leave all the forbidden pleasures behind and 
+    started his MBA at Harvard Business school. A few years later, Justin gave Kate a call but she immediately said "NO", "It's too late". 
+    "He was heartbroken". He remembers his time at Harvard as a social struggle. "He came from a place where he played 
+    the popular guy", to become someone that found it hard even to date people using apps. While working at a school project Justin thought...
+      </p><br>
+      <center><img src="data:image/jpeg;base64,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"300px" height="300";"></center>
+  </nav>
+  
+  <article>
+  <p style= "font-family:'Roboto Mono', monospace; color:#744e88; text-align: justify; padding-left: 40px; padding-left: -10px;">What bussiness idea did Justin came up with?</p>
+  <br>
+    <ul>
+        <li><a style= color:#8b158f href="Wrong.html">Justin created a succesful chatting platform to meet unpopular students from other schools </a></li><br>
+        <br>
+        <li><a style= color:#8b158f href="Wrong.html">Justin started a well known psychological help app for youngsters with problems </a></li><br>
+        <br>
+        <li><a style= color:#8b158f href="hinge4.html">Justin started one of the most succesful dating apps where thousands have met their other half</a></li><br>
+    </ul>
+  
+</article>
+</section>
+
+<footer>
+  <p></p>
+</footer>
+
+</body>
+</html>
